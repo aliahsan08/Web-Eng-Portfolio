@@ -1,0 +1,160 @@
+/*General Page Styling*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #2c2c2c;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px 40px 20px;
+}
+
+h1,
+h2,
+h3 {
+    color: #1f3b57;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+a {
+    color: #2a6fb0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*Navigation Menu*/
+.navbar {
+    background-color: #1f3b57;
+    padding: 0;
+    margin: 0 0 25px 0;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 20px;
+    border-right: 1px solid #33587c;
+}
+
+.navbar li a:hover {
+    background-color: #2a6fb0;
+    text-decoration: none;
+}
+
+/*Headings / Section Boxes*/
+.page-title {
+    border-bottom: 3px solid #2a6fb0;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+/*Home Page: Profile + Bio (float layout)*/
+.profile-pic {
+    float: left;
+    width: 200px;
+    margin: 0 20px 20px 0;
+    border: 3px solid #1f3b57;
+    border-radius: 6px;
+}
+
+.intro-section {
+    overflow: hidden;
+}
+
+.intro-section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/*Lists*/
+ul.styled-list {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/*Image Gallery (float layout) */
+.gallery {
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.gallery-item {
+    float: left;
+    width: 250px;
+    margin: 0 15px 15px 0;
+    background-color: #ffffff;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #1f3b57;
+    border-radius: 4px;
+}
+
+.gallery-item p {
+    margin: 8px 0 0 0;
+    font-size: 14px;
+    color: #555555;
+}
+
+/*Contact Table*/
+table.contact-table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 15px;
+    background-color: #ffffff;
+}
+
+table.contact-table td {
+    border: 1px solid #cccccc;
+    padding: 10px 14px;
+}
+
+table.contact-table td:first-child {
+    background-color: #e8eef4;
+    width: 120px;
+}
+
+/*Footer*/
+.site-footer {
+    clear: both;
+    margin-top: 40px;
+    padding: 15px 0;
+    border-top: 1px solid #cccccc;
+    font-size: 13px;
+    color: #777777;
+    text-align: center;
+}
